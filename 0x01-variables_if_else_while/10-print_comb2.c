@@ -7,6 +7,7 @@
 int main(void)
 {
 	int current1, current2;
+
 	for (current1 = 0; current1 <= 9; current1++)
 		for (current2 = 0; current2 <= 9; current2++)
 		{
