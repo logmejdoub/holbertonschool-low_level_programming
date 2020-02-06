@@ -9,18 +9,18 @@ int main(void)
 {
 	int current1, current2;
 
-	for (current1 = 0; current1 <= 9; current1++)
-		for (current2 = 0; current2 <= 9; current2++)
+	for (current1 = 48; current1 <= 57; current1++)
+		for (current2 = 48; current2 <= 57; current2++)
 		{
 			if (current1 < current2)
 			{
-				putchar(current1 + '0');
-				putchar(current2 + '0');
-			}
-			if (current1 != 9 || current2 != 9)
-			{
-				putchar(',');
-				putchar(' ');
+				putchar(current1);
+				putchar(current2);
+				if ((current1 != 56) || (current2 != 57))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	putchar('\n');
