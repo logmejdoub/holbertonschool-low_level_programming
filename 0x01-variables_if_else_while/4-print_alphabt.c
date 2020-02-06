@@ -13,8 +13,7 @@ int main(void)
 	{	
 		if (current == 'q' || current == 'e')
 			current++;
-		else
-			putchar(current);
+		putchar(current);
 	}
 	putchar('\n');
 	return (0);
