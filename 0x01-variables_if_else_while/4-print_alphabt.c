@@ -10,8 +10,8 @@ int main(void)
 	char current;
 
 	for (current = 'a'; current <= 'z'; current++)
-	{	
-		if (current == 'q' || current == 'e')
+	{
+		if (current == 'e' || current == 'q')
 			current++;
 		putchar(current);
 	}
