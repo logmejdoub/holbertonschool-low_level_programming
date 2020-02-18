@@ -7,7 +7,8 @@
  */
 int _atoi(char *s)
 {
-	int current, sum = 0, sign = 0;
+	unsigned int current, sign = 0;
+	int sum = 0;
 
 	for (current = 0; s[current] != '\0'; current++)
 	{
@@ -20,6 +21,8 @@ int _atoi(char *s)
 	{
 		if (s[current] >= '0' && s[current] <= '9')
 			sum = (sum * 10) + (s[current] - '0');
+		if ((sum != 0) && (s[current] < '0' || s[current] > '9'))
+			break;
 	}
 	if (sign % 2 != 0)
 		sum *= -1;
