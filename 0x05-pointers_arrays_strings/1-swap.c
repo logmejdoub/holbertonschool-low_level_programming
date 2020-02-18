@@ -2,9 +2,9 @@
 
 /**
 * swap_int - swaps the values of two integers
-* @ab : int
+* @a : int
+* @b : int
 */
-
 void swap_int(int *a, int *b)
 {
 int ab;
