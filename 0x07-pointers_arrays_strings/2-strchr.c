@@ -2,9 +2,9 @@
 
 /**
 * _strchr - function that locates a character in a string
-* @s:
-* @c:
-* Return:
+* @s: string
+* @c: char
+* Return: v of s or null
 */
 
 char *_strchr(char *s, char c)
