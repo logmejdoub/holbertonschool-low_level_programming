@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* print_chessboard - function that prints the chessboard
+* print_chessboard - prints the chessboard
 * @a: pointer
 * Return: 0
 */
